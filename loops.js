@@ -16,7 +16,6 @@ function forLoop(array) {
 loops whileLoop(n) counts down from n to 0:
 */
 
-/*
 function whileLoop(n) {
   while (n > 0) {
   console.log(n);
@@ -24,7 +23,7 @@ function whileLoop(n) {
   }
   return console.log('done');
 }
-*/
+
 
 
 /*
