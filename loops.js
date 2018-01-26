@@ -4,9 +4,9 @@ loops forLoop(array) adds `"I am ${i} strange loop${i === 0? '' : 's'}."` to an 
 function forLoop(array) {
   var i;
   for (i = 0; i < 25; i++) {
-  array[array.length]=("I am ${i}+1 strange loop${i === 0? '' : 's'}.");
+  //array[array.length]=("I am ${i}+1 strange loop${i === 0? '' : 's'}.");
   }
-  // array.push('done');
+  array[array.length]=("I am ${i}+1 strange loop${i === 0? '' : 's'}."); 
   return array;
 }
 
