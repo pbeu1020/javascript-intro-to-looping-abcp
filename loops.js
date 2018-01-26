@@ -17,12 +17,10 @@ loops whileLoop(n) counts down from n to 0:
 */
 
 function whileLoop(n) {
-  // var textMsg ='done';
   while (n > 0) {
   console.log(n);
   --n; 
   }
-  //console.log(textMsg);
   return "done";
 }
 
