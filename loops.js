@@ -31,6 +31,7 @@ loops doWhileLoop(array) removes elements from `array` until `array` is empty or
 
 function doWhileLoop(array) {
   do {
+    array.pop();
   }
 
 while (maybeTrue());
