@@ -21,8 +21,8 @@ function whileLoop(n) {
   while (n > 0) {
   console.log(n);
   --n; 
-  console.log(textMsg);
   }
+  console.log(textMsg);
 }
 
 
