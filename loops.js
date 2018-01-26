@@ -24,15 +24,22 @@ function whileLoop(n) {
   return "done";
 }
 
-
-
 /*
 loops doWhileLoop(array) removes elements from `array` until `array` is empty or until `maybeTrue()` returns `false`:
 */
 
-/*
+
 function doWhileLoop(array) {
-  
+  do {
+  }
+
+while (maybeTrue());
 }
-*/
+
+
+
+function maybeTrue() {
+  return Math.random() >= 0.5;
+}
+
 
